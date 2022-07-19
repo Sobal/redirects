@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://discord.sobal.fi/*"
+to = "https://discord.gg/qzkW9HXZsb"
+status = 200
+force = true
