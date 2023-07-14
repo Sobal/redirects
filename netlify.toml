@@ -6,6 +6,12 @@ force = true
 
 [[redirects]]
 from = "https://api-v3.sobal.fi/*"
+to = "https://api-v3.balancer.fi/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "https://api-v4.sobal.fi/*"
 to = "https://bl5ot3alqvc77hllxgclj72rmm.appsync-api.eu-north-1.amazonaws.com/:splat"
 status = 200
 force = true
