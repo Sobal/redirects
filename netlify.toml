@@ -3,6 +3,7 @@ from = "https://discord.sobal.fi/*"
 to = "https://discord.gg/sobal"
 status = 200
 force = true
+headers = {X-Api-Key = "da2-7v6khhpxwbfm3hzoofmenop4sa"}
 
 [[redirects]]
 from = "https://api-v3.sobal.fi/*"
