@@ -1,6 +1,6 @@
 [[redirects]]
 from = "https://discord.sobal.fi/*"
-to = "https://discord.gg/sobal"
+to = "https://discord.gg/pMVUEM3bn9" # revert to https://discord.gg/sobal when boosted
 status = 200
 force = true
 
