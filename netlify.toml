@@ -9,14 +9,3 @@ from = "https://api-v3.sobal.fi/*"
 to = "https://api-v3.balancer.fi/:splat"
 status = 200
 force = true
-
-[[redirects]]
-from = "https://api.sobal.fi/*"
-to = "https://4jwnbyfrwf.execute-api.eu-north-1.amazonaws.com/prod/:splat"
-status = 200
-force = true
-
-[[headers]]
-  for = "https://api.sobal.fi/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
