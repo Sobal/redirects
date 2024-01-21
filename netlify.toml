@@ -5,7 +5,13 @@ status = 200
 force = true
 
 [[redirects]]
-from = "https://api-v3.sobal.fi/*"
-to = "https://api-v3.balancer.fi/:splat"
+from = "https://sobal.fi/*"
+to = "https://app.sobal.fi"
+status = 200
+force = true
+
+[[redirects]]
+from = "https://www.sobal.fi/*"
+to = "https://app.sobal.fi"
 status = 200
 force = true
