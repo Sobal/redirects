@@ -6,12 +6,12 @@ force = true
 
 [[redirects]]
 from = "https://sobal.fi/*"
-to = "https://app.sobal.fi"
-status = 200
+to = "https://app.sobal.fi/"
+status = 301
 force = true
 
 [[redirects]]
 from = "https://www.sobal.fi/*"
-to = "https://app.sobal.fi"
-status = 200
+to = "https://app.sobal.fi/"
+status = 301
 force = true
